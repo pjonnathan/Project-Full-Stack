@@ -16,7 +16,7 @@ A full-stack project using React and Spring Boot to manage a menu. The applicati
 - React
 - Axios (for HTTP requests)
 - Spring Boot
-- H2 Database (or any database of your choice)
+- PostgreSQL
 
 ## Setup and Installation
 
@@ -43,25 +43,6 @@ A full-stack project using React and Spring Boot to manage a menu. The applicati
    ```
 4. The frontend will be available at `http://localhost:3000`.
 
-## API Endpoints
-
-- **GET** `/api/menu` - Retrieve all menu items
-- **POST** `/api/menu` - Add a new menu item
-  - Request Body:
-    ```json
-    {
-      "name": "Item Name",
-      "price": 10.99
-    }
-    ```
-
-## Screenshots
-
-### Admin Panel
-![Admin Panel](https://via.placeholder.com/800x400.png?text=Admin+Panel)
-
-### Menu View
-![Menu View](https://via.placeholder.com/800x400.png?text=Menu+View)
 
 ## Contributing
 
